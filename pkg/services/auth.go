@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/hellokvn/go-grpc-auth-svc/pkg/db"
-	"github.com/hellokvn/go-grpc-auth-svc/pkg/models"
-	"github.com/hellokvn/go-grpc-auth-svc/pkg/pb"
-	"github.com/hellokvn/go-grpc-auth-svc/pkg/utils"
+	"github.com/redhaanggara21/go-grpc-auth-svc/pkg/db"
+	"github.com/redhaanggara21/go-grpc-auth-svc/pkg/models"
+	"github.com/redhaanggara21/go-grpc-auth-svc/pkg/pb"
+	"github.com/redhaanggara21/go-grpc-auth-svc/pkg/utils"
 )
 
 type Server struct {
